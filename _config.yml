@@ -19,9 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ktj
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Katie Jiang, Computer Engineering
+  Katie Jiang
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
