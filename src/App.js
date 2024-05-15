@@ -19,8 +19,8 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <p>
-      Hi, I'm Katie. More coming soon.
+    <p padding="100px">
+      Hi, I'm Katie. Thanks for dropping by. <i>More coming soon...</i>
     </p>
   );
 }
