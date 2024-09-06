@@ -1,10 +1,13 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-family: 'Average Sans', 'Fira Sans', 'Helvetica Neue',
+      sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-right: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +38,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Navigation Bar */
+.Nav, .Nav-header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Nav-header * {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Nav-left {
+  float: left;
+}
+
+.Nav-right {
+  position: absolute;
+  right: 1%;
+  flex-direction: row;
+}
+
+.Nav h1 {
+  margin: 4px;
+}
+
+/* Generic */
+.Icon {
+  margin: 10px;
+  width: 20px;
 }

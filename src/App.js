@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <code>Hello World!</code> Is anyone there?
@@ -17,7 +17,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <body>
+        <p>Hello! I'm Katie Jiang, a computer engineering student at Northwestern University. This is my very minimal, in-the-works website. Please visit again in the future!</p>
+      </body>
     </div>
   );
 }
