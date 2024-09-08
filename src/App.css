@@ -41,6 +41,10 @@
 }
 
 /* Navigation Bar */
+.Nav {
+  padding: 8px;
+}
+
 .Nav, .Nav-header {
   height: 100px;
   width: 100%;

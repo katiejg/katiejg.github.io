@@ -3,6 +3,7 @@
 /* General Formatting */
 
 body {
+  overflow: hidden;
   background-color: #272C26;
   color: #FBF6EF;
   margin: 0;
@@ -19,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 14pt;
   margin: 8px;
-  width: 40%;
+  padding: 4px;
 }
 
 a {
