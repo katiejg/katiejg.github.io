@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import './index.css';
 import Root from './routes/root';
-import Profile from './routes/about';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -17,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "about",
-    element: <Profile />,
+    element: <Root />,
   },
 ]);
 
