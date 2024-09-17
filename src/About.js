@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function About() {
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -20,13 +20,7 @@ function App() {
       </header> */}
       <body>
         <div className="Section">
-          <p>NOTICE: This website is still in the works!</p>
-          <h2 id="about">About</h2>
-          <p>Hello! My name is Katie Jiang. Currently, I am a computer engineering undergraduate at Northwestern University, but I am originally from metro Boston.
-          Besides computer engineering, I am also interested in language learning, environmentalism, and game development.</p>
-        </div>
-        <div className="Section">
-          <h2 id="projects">Projects</h2>
+          <h2 id="courses">Coursework</h2>
           <p>Coming soon... Please visit again in the future!</p>
         </div>
       </body>
@@ -34,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;

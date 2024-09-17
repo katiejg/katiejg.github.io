@@ -1,15 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import './index.css';
-import App from './App';
-import Nav from './Nav';
+import Root from './routes/root';
+import Profile from './routes/about';
 import reportWebVitals from './reportWebVitals';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <p>Uh oh... this page doesn't exist! Click <a href="/">here</a> to return to the homepage.</p>,
+  },
+  {
+    path: "about",
+    element: <Profile />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav />
-    <App />
+    <RouterProvider router={router} />
+    {/* <Nav />
+    <App /> */}
   </React.StrictMode>
 );
 
