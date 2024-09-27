@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter as Router} from 'react-router-dom'
 import './index.css';
 import App from './App';
-import Nav from './Nav';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav />
-    <App />
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 
