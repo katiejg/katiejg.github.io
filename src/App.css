@@ -1,6 +1,6 @@
 .App {
   text-align: left;
-  font-family: 'Average Sans', 'Fira Sans', 'Helvetica Neue',
+  font-family: 'Nunito Sans', 'Fira Sans', 'Helvetica Neue',
       sans-serif;
 }
 
@@ -67,6 +67,10 @@
   flex-direction: row;
 }
 
+.Nav-right * {
+  margin: 5px;
+}
+
 .Nav h1 {
   margin: 4px;
 }
@@ -80,4 +84,31 @@
 .Section {
   margin: 8px;
   padding: 4px;
+}
+
+
+.Resume {
+  width: 70%;
+}
+
+.Resume h3 {
+  font-size: 16pt;
+  padding: 0;
+}
+.Resume h4 {
+  font-size: 14pt;
+  padding: 0;
+  margin-left: 1em;
+}
+
+.Resume p {
+  font-size: 12pt;
+  padding: 0;
+  margin-left: 2em;
+}
+.Resume ul {
+  margin-top: auto;
+}
+.Resume li {
+  list-style-position: inside;
 }

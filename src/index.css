@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 /* General Formatting */
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   background-color: #272C26;
   color: #FBF6EF;
   margin: 0;
-  font-family: 'Average Sans', 'Fira Sans', 'Helvetica Neue',
+  font-family: 'Nunito Sans', 'Fira Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rufina', serif;
+  font-family: 'Halant', serif;
+  font-weight: 500;
   margin: 8px;
 }
 
@@ -22,7 +24,11 @@ h1, h2 {
   text-align: center;
 }
 
-p {
+h3 {
+  font-size: 16pt;
+}
+
+h4, p {
   font-size: 14pt;
   margin: 8px;
   padding: 4px;
