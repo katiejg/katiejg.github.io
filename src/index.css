@@ -3,8 +3,6 @@
 /* General Formatting */
 
 body {
-  overflow-x: hidden;
-  overflow-y: scroll;
   background-color: #272C26;
   color: #FBF6EF;
   margin: 0;

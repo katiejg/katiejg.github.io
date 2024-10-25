@@ -1,4 +1,5 @@
 .App {
+  overflow-x: hidden;
   text-align: left;
   font-family: 'Nunito Sans', 'Fira Sans', 'Helvetica Neue',
       sans-serif;
