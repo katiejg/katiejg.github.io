@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* General Formatting */
 
@@ -6,27 +6,31 @@ body {
   background-color: #272C26;
   color: #FBF6EF;
   margin: 0;
-  font-family: 'Nunito Sans', 'Fira Sans', 'Helvetica Neue',
+  font-family: 'Inter', 'Fira Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Halant', serif;
-  font-weight: 500;
   margin: 8px;
 }
 
 h1, h2 {
+  font-family: 'Inter Tight', serif;
+  font-weight: 600;
   text-align: center;
 }
 
 h3 {
+  font-family: 'Inter', serif;
+  font-weight: 600;
   font-size: 16pt;
 }
 
 h4, p {
+  font-family: 'Inter', serif;
+  font-weight: 400;
   font-size: 14pt;
   margin: 8px;
   padding: 4px;

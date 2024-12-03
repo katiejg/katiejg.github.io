@@ -18,7 +18,7 @@ function Nav() {
           <Link to="/about">Resume</Link>
           <a href="https://github.com/katiejg"><BsGithub class="Icon" /></a>
           <a href="https://www.linkedin.com/in/katie-j-789296298"><BsLinkedin class="Icon" /></a>
-          <Tooltip title="KatieJiang[at]u[dot]northwestern[dot]edu" arrow>
+          <Tooltip title="KatieJiang[at]u.northwestern.edu" arrow>
             <IconButton disableRipple size="inherit" color="inherit"><BsEnvelopeFill class="Icon" /></IconButton>
           </Tooltip>
         </div>
