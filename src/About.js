@@ -13,19 +13,19 @@ function About() {
         <div className="Section Resume">
           <h3 id="edu">Education</h3>
           <h4>Northwestern University</h4>
-          <p>September 2023 - Anticipated June 2027
+          <p>September 2023 - Anticipated June 2027 (Evanston, IL)
           <br/>Major: Computer Engineering, BS
           <br/>Relevant Coursework: Intro to Electrical Engineering, Intro to Computer Engineering, Fundamentals of Programming II (C/C++), Data Structures and Algorithms</p>
           <br />
           <h3 id="exp">Experience</h3>
           <h4>VAK Sustainable Computing Lab | Undergraduate Researcher</h4>
-          <p>September 2024 - Present</p>
+          <p>September 2024 - Present (Evanston, IL)</p>
           <ul>
             <li>Contributing to the biodegradable packaging project</li>
           </ul>
           <br />
           <h4>Electrical and Computer Engineering (ECE) Undergraduate Teaching Labs | Lab Aide</h4>
-          <p>October 2023 - Present</p>
+          <p>October 2023 - Present (Evanston, IL)</p>
           <ul>
             <li>Assembling parts kits requested by ECE professors for classroom instruction</li>
             <li>Inventorying IC chips, resistors, capacitors, and other electronic components</li>
@@ -33,8 +33,8 @@ function About() {
           </ul>
           <br />
           <h4>Northwestern IEEE Student Branch | Marketing Lead</h4>
-          <p>October 2024 - Present</p>
-          <p>February 2024 - May 2024 (Technical Program 2024 Participant)</p>
+          <p>February 2024 - Present (Evanston, IL)</p>
+          <p>As Technical Program 2024 Participant:</p>
           <ul>
             <li>Built an Arduino-controlled braille display</li>
             <li>Collaborated on the hardware side of the team</li>
@@ -42,7 +42,7 @@ function About() {
           </ul>
           <br />
           <h4>Chinese Progressive Association | Chinese Youth Initiative Intern</h4>
-          <p>July 2021 - August 2021</p>
+          <p>July 2021 - August 2021 (Boston, MA)</p>
           <ul>
             <li>Participated in group discussions on Asian-American history to guide community development</li>
             <li>Hosted an educational activity about the Yes On 1 campaign to Chinatown residents</li>
