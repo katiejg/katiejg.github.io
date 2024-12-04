@@ -1,8 +1,16 @@
 .App {
   overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
   text-align: left;
   font-family: 'Inter', 'Fira Sans', 'Helvetica Neue',
       sans-serif;
+}
+
+.App::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
 }
 
 .App-logo {
