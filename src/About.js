@@ -5,7 +5,7 @@ function About() {
     <div className="About">
       <body>
         <div className="Section">
-          <p>Computer engineering undergraduate at Northwestern University, interested in both software and hardware. Originally from the Greater Boston area.
+          <p>Aspiring to be a global-minded engineer that can progress technology sustainably. Computer engineering undergraduate at Northwestern University, interested in both software and hardware. Originally from the Greater Boston area.
           Also interested in language learning and environmentalism. Contact: KatieJiang[at]u.northwestern.edu</p>
           <p>Below is a detailed version of my resume.</p>
         </div>
@@ -18,7 +18,7 @@ function About() {
           <br/>Relevant Coursework: Intro to Electrical Engineering, Intro to Computer Engineering, Fundamentals of Programming II (C/C++), Data Structures and Algorithms</p>
           <br />
           <h3 id="exp">Experience</h3>
-          <h4>VAK Sustainable Computing Lab | Undergraduate Researcher</h4>
+          <h4><a href="https://vaksustainablecomputing.com/">VAK Sustainable Computing Lab</a> | Undergraduate Researcher</h4>
           <p>September 2024 - Present (Evanston, IL)</p>
           <ul>
             <li>Contributing to the biodegradable packaging project</li>
@@ -41,7 +41,7 @@ function About() {
             <li>Won “Most Innovative” at the 2024 Technical Program Student Showcase</li>
           </ul>
           <br />
-          <h4>Chinese Progressive Association | Chinese Youth Initiative Intern</h4>
+          <h4><a href="https://www.cpaboston.org/">Chinese Progressive Association</a> | Chinese Youth Initiative Intern</h4>
           <p>July 2021 - August 2021 (Boston, MA)</p>
           <ul>
             <li>Participated in group discussions on Asian-American history to guide community development</li>
