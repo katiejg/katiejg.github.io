@@ -4,8 +4,8 @@ function About() {
   return (
     <div className="About">
       <body>
-        <div className="Section">
-          <p>Aspiring to be a global-minded engineer that can progress technology sustainably. Computer engineering undergraduate at Northwestern University, interested in both software and hardware. Originally from the Greater Boston area.
+        <div className="Section Blurb">
+          <p>Computer engineering undergraduate at Northwestern University, interested in both software and hardware. Originally from the Greater Boston area.
           Also interested in language learning and environmentalism. Contact: KatieJiang[at]u.northwestern.edu</p>
           <p>Below is a detailed version of my resume.</p>
         </div>
@@ -15,13 +15,15 @@ function About() {
           <h4>Northwestern University</h4>
           <p>September 2023 - Anticipated June 2027 (Evanston, IL)
           <br/>Major: Computer Engineering, BS
+          <br/>Minor: Chinese (Advanced Asian Languages)
           <br/>Relevant Coursework: Intro to Electrical Engineering, Intro to Computer Engineering, Fundamentals of Programming II (C/C++), Data Structures and Algorithms</p>
-          <br />
+          <br/>
           <h3 id="exp">Experience</h3>
           <h4><a href="https://vaksustainablecomputing.com/">VAK Sustainable Computing Lab</a> | Undergraduate Researcher</h4>
           <p>September 2024 - Present (Evanston, IL)</p>
           <ul>
             <li>Contributing to the biodegradable packaging project</li>
+            <li>Trained in basic cleanroom procedures and the wedge bonder</li>
           </ul>
           <br />
           <h4>Electrical and Computer Engineering (ECE) Undergraduate Teaching Labs | Lab Aide</h4>
@@ -29,7 +31,7 @@ function About() {
           <ul>
             <li>Assembling parts kits requested by ECE professors for classroom instruction</li>
             <li>Inventorying IC chips, resistors, capacitors, and other electronic components</li>
-            <li>Updating and troubleshooting classroom computers and testing equipment</li>
+            <li>Updating and troubleshooting computers and testing equipment</li>
           </ul>
           <br />
           <h4>Northwestern IEEE Student Branch | Marketing Lead</h4>
@@ -50,10 +52,13 @@ function About() {
           </ul>
           <br />
           <h3 id="don">Skills</h3>
-          <p>C/C++, HTML/CSS, JavaScript, MATLAB, Python, Arduino</p>
+          <p>C/C++, Python, MATLAB, HTML/CSS, JavaScript, Arduino</p>
           <p>Adobe Photoshop/Illustrator/InDesign, DaVinci Resolve</p>
           <p>Microsoft 365, Google Workspace</p>
           <p>English (Native), French (Intermediate, B1)</p>
+          <br />
+          <h3 id="honors">Honors</h3>
+          <p>Dean's List (2 quarters)</p>
         </div>
       </body>
     </div>

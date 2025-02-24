@@ -96,6 +96,13 @@ body::-webkit-scrollbar {
   padding: 4px;
 }
 
+.Blurb {
+  float: right;
+}
+
+.Blurb p {
+  width: 50%;
+}
 
 .Resume {
   width: 90%;
