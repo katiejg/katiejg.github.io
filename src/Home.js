@@ -1,7 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
+import Post from './portfolio/Post';
+import Portfolio from './portfolio/Portfolio';
+import Blog from './portfolio/posts.json';
 
 function Home() {
+  console.log(Blog)
   return (
     <div className="Home">
       {/* <header className="App-header">
@@ -22,6 +26,8 @@ function Home() {
         <div className="Section">
           <h2 id="projects">Projects</h2>
           <p>Coming soon... Please visit again in the future!</p>
+          <Post />
+          <Portfolio />
         </div>
       </body>
     </div>

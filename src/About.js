@@ -14,10 +14,11 @@ function About() {
           <h3 id="edu">Education</h3>
           <h4>Northwestern University</h4>
           <p>September 2023 - Anticipated June 2027 (Evanston, IL)
-          <br/>Major: Computer Engineering, BS
-          <br/>Minor: Chinese (Advanced Asian Languages)
-          <br/>Relevant Coursework: Intro to Electrical Engineering, Intro to Computer Engineering, Fundamentals of Programming II (C/C++), Data Structures and Algorithms</p>
-          <br/>
+          <br />Major: Computer Engineering, BS
+          <br />Minor: Chinese (Advanced Asian Languages)
+          <br />Relevant Coursework: Intro to Electrical Engineering, Intro to Computer Engineering, Fundamentals of Programming II (C/C++), Data Structures and Algorithms
+          </p>
+          <br />
           <h3 id="exp">Experience</h3>
           <h4><a href="https://vaksustainablecomputing.com/">VAK Sustainable Computing Lab</a> | Undergraduate Researcher</h4>
           <p>September 2024 - Present (Evanston, IL)</p>
@@ -35,8 +36,8 @@ function About() {
           </ul>
           <br />
           <h4>Northwestern IEEE Student Branch | Marketing Lead</h4>
-          <p>February 2024 - Present (Evanston, IL)</p>
-          <p>As Technical Program 2024 Participant:</p>
+          <p>October 2024 - Present (Evanston, IL)</p>
+          <p>February 2024 - June 2024 | Technical Program Participant:</p>
           <ul>
             <li>Built an Arduino-controlled braille display</li>
             <li>Collaborated on the hardware side of the team</li>
